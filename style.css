@@ -12,7 +12,7 @@ html {
 /* Slideshow container */
 .slideshow-container {
     width: 100%;
-    position: relative;
+    position: absolute;
     margin: auto;
   }
 
@@ -21,6 +21,12 @@ html {
   .mySlides {
     display:none;
   }
+
+.current {
+  display: block;
+  opacity: 100%;
+}
+
   
   /* Next & previous buttons */
   .prev, .next {
